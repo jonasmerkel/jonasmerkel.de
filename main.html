@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pico</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="navi">
+        <nav aria-label="breadcrumb">
+            <ul>
+                <li><a href="./gallery.html">My image gallery</a></li>
+                <li><a href="./assets/aurela.html">Aurela's page</a></li>
+                <li>Page</li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="grid">
+            <h1>Jonas Merkel</h1>
+        </div>
+        <article>
+            <div class="grid">
+                <header>
+                    <h2>Hellou, my name is Jonas and i am a beginner web developer. This page is about me trying
+                        picocss.<br><br> Have fun! :)</h2>
+                </header>
+                <img id="img1"
+                    src="https://images.pexels.com/photos/1770809/pexels-photo-1770809.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                    alt="image">
+            </div>
+        </article>
+        <div class="grid">
+            <h3>Please input your username and your password.</h3>
+            <form action="./formular.php" method="post">
+                <input class="secondary" type="text" placeholder="Username">
+                <input class="secondary" type="password" placeholder="Password">
+                <input class="secondary" type="submit">
+            </form>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>
